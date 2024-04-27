@@ -169,9 +169,6 @@ def generar_informe_pdf(nombre_informe, author_name, archivos_csv):
             titulo = Paragraph(f"<b>Gráfico {os.path.splitext(os.path.basename(archivo_csv))[0]}</b>", style=estilo_titulo)
             imagen = Image(grafico, width=500, height=300)
             parrafo = Paragraph(descripcion, style=estilos['Normal'])
-
-            # Aquí puedes añadir más descripción al párrafo
-            # Por ejemplo:
             mas_descripcion = f"El gráfico generado a partir del archivo '{archivo_csv}' muestra las métricas registradas a intervalos regulares, ofreciendo una representación visual de los datos recopilados. Proporciona una visión detallada de [métrica específica] a lo largo del tiempo, lo que permite analizar tendencias, identificar patrones y tomar decisiones informadas basadas en los datos. Estas métricas son fundamentales para monitorear el rendimiento del sistema, identificar posibles problemas y optimizar la eficiencia operativa."
             parrafo = Paragraph(f"{descripcion}<br/><br/>{mas_descripcion}", style=estilos['Normal'])
 
