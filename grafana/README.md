@@ -1,4 +1,4 @@
-# 5. Instalación de Grafana
+# Instalación de Grafana
 Grafana es una plataforma de análisis y visualización de métricas.
 
 Añadir el Repositorio de Grafana

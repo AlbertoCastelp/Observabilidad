@@ -1,4 +1,4 @@
-# 4. Instalación de Prometheus
+# Instalación de Prometheus
 Prometheus es un sistema de monitorización y alerta de código abierto diseñado para clústeres Kubernetes.
 
 Antes de comenzar, asegúrate de tener los siguientes requisitos previos:
@@ -7,7 +7,6 @@ Antes de comenzar, asegúrate de tener los siguientes requisitos previos:
 * La herramienta de línea de comandos kubectl instalada.
 * El gestor de paquetes Helm instalado.
 
-# 4.1 Instalación de Prometheus
 Prometheus es necesario para la recopilación y almacenamiento de datos en Grafana. Sigue estos pasos para instalar Prometheus en Kubernetes:
 
 Agrega el repositorio Helm de Prometheus:
